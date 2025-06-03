@@ -1,0 +1,15 @@
+
+---
+
+## ✅ 2. **Push to GitHub**
+
+1. Go to GitHub and create a new public/private repo, e.g., `ndvi-change-detector`.
+2. In your terminal:
+
+```bash
+cd ndvi-change-detector
+git init
+git remote add origin https://github.com/YOUR_USERNAME/ndvi-change-detector.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
