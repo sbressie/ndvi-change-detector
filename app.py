@@ -16,6 +16,7 @@ from zipfile import ZipFile
 config = SHConfig()
 config.sh_client_id = st.secrets["CLIENT_ID"]
 config.sh_client_secret = st.secrets["CLIENT_SECRET"]
+config.sh_auth_base_url = "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token"
 
 st.title("🌿 Sentinel-2 NDVI Change Detector")
 
